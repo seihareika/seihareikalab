@@ -1,51 +1,50 @@
 #g-nav {
-    /*position:fixed;‚É‚µAz-index‚Ì”’l‚ğ‘å‚«‚­‚µ‚Ä‘O–Ê‚Ö*/
+    /*position:fixed;ã«ã—ã€z-indexã®æ•°å€¤ã‚’å¤§ããã—ã¦å‰é¢ã¸*/
     position: fixed;
     z-index: 999 !important;
-    /*ƒiƒr‚ÌƒXƒ^[ƒgˆÊ’u‚ÆŒ`ó*/
+    /*ãƒŠãƒ“ã®ã‚¹ã‚¿ãƒ¼ãƒˆä½ç½®ã¨å½¢çŠ¶*/
     top: 10;
     right: -120%;
     width: 45%;
-    height: 100vh; /*ƒiƒr‚Ì‚‚³*/
+    height: 100vh; /*ãƒŠãƒ“ã®é«˜ã•*/
     background: #191970;
-    /*“®‚«*/
+    /*å‹•ã*/
     transition: all 0.6s;
 }
 
-    /*ƒAƒNƒeƒBƒuƒNƒ‰ƒX‚ª‚Â‚¢‚½‚çˆÊ’u‚ğ0‚É*/
-    #g-nav.panelactive {
-        right: 0;
-    }
+        /*ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ã‚¯ãƒ©ã‚¹ãŒã¤ã„ãŸã‚‰ä½ç½®ã‚’0ã«*/
+        #g-nav.panelactive{
+            right: 0;
+        }
 
-        /*ƒiƒrƒQ[ƒVƒ‡ƒ“‚ÌcƒXƒNƒ[ƒ‹*/
-        #g-nav.panelactive #g-nav-list {
-            /*ƒiƒr‚Ì”‚ª‘‚¦‚½ê‡cƒXƒNƒ[ƒ‹*/
+        /*ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ã®ç¸¦ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«*/
+        #g-nav.panelactive #g-nav-list{
+            /*ãƒŠãƒ“ã®æ•°ãŒå¢—ãˆãŸå ´åˆç¸¦ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«*/
             position: absolute;
-            z-index: 999;
+            z-index: 999; 
             width: 100%;
-            height: 100vh; /*•\¦‚·‚é‚‚³*/
+            height: 100vh;/*è¡¨ç¤ºã™ã‚‹é«˜ã•*/
             overflow: auto;
             -webkit-overflow-scrolling: touch;
         }
 
-    /*ƒiƒrƒQ[ƒVƒ‡ƒ“*/
-    #g-nav ul {
-        /*ƒiƒrƒQ[ƒVƒ‡ƒ““V’n’†‰›‘µ‚¦*/
-        position: absolute;
-        z-index: 999;
-        top: 3rem;
-        left: 50%;
-        transform: translate(-50%,0%);
-        text-align: center;
-    }
+        /*ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³*/
+        #g-nav ul {
+            /*ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³å¤©åœ°ä¸­å¤®æƒãˆ*/
+            position: absolute;
+            z-index: 999;
+            top: 3rem;
+            left: 50%;
+            transform: translate(-50%,0%);
+            text-align: center;
+        }
 
-
-    /* ƒ}ƒEƒXƒI[ƒo[ */
+    /* ãƒã‚¦ã‚¹ã‚ªãƒ¼ãƒãƒ¼æ™‚ */
     #g-nav li:hover {
         background: #cc66ff;
     }
 
-    /*ƒŠƒXƒg‚ÌƒŒƒCƒAƒEƒgİ’è*/
+    /*ãƒªã‚¹ãƒˆã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆè¨­å®š*/
 
     #g-nav li {
         list-style: none;
@@ -68,10 +67,10 @@
         border: none;
     }
 
-/*========= ƒ{ƒ^ƒ“‚Ì‚½‚ß‚ÌCSS ===============*/
+/*========= ãƒœã‚¿ãƒ³ã®ãŸã‚ã®CSS ===============*/
 .openbtn {
     position: fixed;
-    z-index: 9999; /*ƒ{ƒ^ƒ“‚ğÅ‘O–Ê‚É*/
+    z-index: 9999; /*ãƒœã‚¿ãƒ³ã‚’æœ€å‰é¢ã«*/
     top: 1rem;
     right: 1rem;
     cursor: pointer;
@@ -80,7 +79,7 @@
     background-color: #3300ff;
 }
 
-    /*~‚É•Ï‰»*/
+    /*Ã—ã«å¤‰åŒ–*/
     .openbtn span {
         display: inline-block;
         transition: all .4s;
@@ -127,7 +126,7 @@
     }
 
 
-/* ƒgƒbƒv‚Ö–ß‚éƒ{ƒ^ƒ“ */
+/* ãƒˆãƒƒãƒ—ã¸æˆ»ã‚‹ãƒœã‚¿ãƒ³ */
 .page_top_btn {
     position: fixed;
     bottom: 1rem;
@@ -142,7 +141,7 @@
     z-index: 99999999;
 }
 
-    /* ƒ}ƒEƒXƒI[ƒo[ */
+    /* ãƒã‚¦ã‚¹ã‚ªãƒ¼ãƒãƒ¼æ™‚ */
     .page_top_btn:hover {
         background: #cc66ff;
         color: rgb(255, 255, 255, 0.8);

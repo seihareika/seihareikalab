@@ -3,7 +3,7 @@ document.write(`
 <h1></h1><h2></h2>
 <div class="openbtn"><span></span><span></span><span></span></div>
 <nav id="g-nav">
-    <div id="g-nav-list"><!--ÉiÉrÇÃêîÇ™ëùÇ¶ÇΩèÍçáècÉXÉNÉçÅ[ÉãÇ∑ÇÈÇΩÇﬂÇÃdivÅ¶ïsóvÇ»ÇÁçÌèú-->
+    <div id="g-nav-list"><!--„Éä„Éì„ÅÆÊï∞„ÅåÂ¢ó„Åà„ÅüÂ†¥ÂêàÁ∏¶„Çπ„ÇØ„É≠„Éº„É´„Åô„Çã„Åü„ÇÅ„ÅÆdiv‚Äª‰∏çË¶Å„Å™„ÇâÂâäÈô§-->
         <ul>
             <li><a href=""><h1>TOP</h1></a></li>
             <br><hr><br>
@@ -20,6 +20,6 @@ document.write(`
         </ul>
     </div>
 </nav>
-<a href="#" class="page_top_btn">aaaa</a>
+<a href="#" class="page_top_btn">‰∏ä„Å∏Êàª„Çã</a>
 </header>
 `);

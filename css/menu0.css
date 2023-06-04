@@ -67,7 +67,12 @@
     width: 5rem;
     height:5rem;
 }
-    
+
+.openbtnmenu{
+    left: 1.4rem;
+    height: 0.3rem;
+}
+
 .openbtn span{
     display: inline-block;
     transition: all .4s;

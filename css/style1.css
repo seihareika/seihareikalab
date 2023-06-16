@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    margin-top: 0.1rem;
+    background-color: #eeeeee;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer * {
+    margin: 0.5rem;
+}
+
+footer h {
+    font-weight: normal;
+}

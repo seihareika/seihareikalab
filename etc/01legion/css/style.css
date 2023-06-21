@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+    scroll-padding-top: 7rem;
+}
+h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h4 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h5 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+h6 {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+header {
+    z-index: 99999;
+    position: sticky;
+    top: 0;
+    height: 6.5rem;
+    background-color: #91e3ff;
+}
+footer {
+    text-align: center;
+    margin-top: 0.1rem;
+    background-color: #eeeeee;
+}
+
+footer {
+    padding: 1rem;
+}
+
+    footer * {
+        margin: 0.5rem;
+    }
+
+    footer h4 {
+        font-weight: normal;
+    }
+
+header {
+    z-index: 99999;
+    position: sticky;
+    top: 0;
+    height: 6.5rem;
+    background-color: #91e3ff;
+}
+
+    header h1 {
+        padding: 1.3rem;
+        padding-bottom: 1rem;
+    }
+
+    header h3 {
+        padding-left: 1.5rem;
+    }
+
+main {
+    margin: 1rem;
+}
+
+.jump-btn {
+    height: 20rem !important;
+    width: 20rem !important;
+    border: 0.1rem;
+    background-color: #eeeeee;
+}

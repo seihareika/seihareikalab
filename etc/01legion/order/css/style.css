@@ -1,0 +1,263 @@
+body {
+    background-color: rgb(51, 255, 51, 0.25);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-padding-top: 7rem;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+p1 {
+    font-size: 6.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+p2 {
+    font-size: 5.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+p3 {
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+p4 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+p5 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+p6 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.a {
+    color: rgba(255, 51, 51, 0.25);
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+main{
+    font-size: 2.5rem;
+}
+
+main a {
+    color: #141414;
+}
+
+main a:hover {
+    color: rgb(255, 51, 255, 0.75);
+}
+
+main p1:hover{
+    color: rgb(255, 51, 255, 0.75);
+}
+
+main p2:hover{
+    color: rgb(255, 51, 255, 0.75);
+}
+
+main p3:hover{
+    color: rgb(255, 51, 255, 0.75);
+}
+
+main p4:hover{
+    color: rgb(255, 51, 255, 0.75);
+}
+
+
+main p5:hover{
+    color: rgb(255, 51, 255, 0.75);
+}
+
+main hr{
+    height: 0.1rem;
+    background-color: #000000;
+}
+
+header {
+    z-index: 99999;
+    position: sticky;
+    top: 0;
+    background-color:  rgb(51, 255, 51);
+}
+
+.hr {
+    color: #141414;
+    height: 0.1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 0.1rem;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer * {
+    margin: 0.5rem;
+}
+
+.jump-btn {
+    height: 20rem !important;
+    width: 20rem !important;
+    border: 0.1rem;
+    background-color: #eeeeee;
+}
+
+table {
+    background-color: #14141450;
+    font-size: 2.0rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th{
+    background-color: rgb(51, 255, 255);
+    font-size: 2.0rem;
+    border-right: 0.2rem solid #141414;
+    border-left: 0.2rem solid #141414;
+    border-top: 0.2rem solid #141414;
+    border-bottom: 0.2rem solid #141414;
+    vertical-align: middle;
+}
+
+.a {
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.b {
+    border-left: 0.1rem solid #141414;
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.c {
+    border-left: 0.1rem solid #141414;
+    color: #141414;
+}
+
+td {
+    font-size: 3.0rem;
+    border-right: 0.2rem solid #141414;
+    border-left: 0.2rem solid #141414;
+    border-top: 0.2rem solid #141414;
+    border-bottom: 0.2rem solid #141414;
+    vertical-align: middle;
+}
+.d {
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.e {
+    border-left: 0.1rem solid #141414;
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.f {
+    border-left: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.g {
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.h {
+    border-left: 0.1rem solid #141414;
+    border-right: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.i {
+    border-left: 0.1rem solid #141414;
+    color: #141414;
+}
+
+.w {
+    font-size: 2.0rem;
+}
+
+.x {
+    background-color: #2863ab9c;
+}
+
+.y {
+    background-color: rgba(51, 255, 255, 0.829);
+}
+
+.z {
+    background-color: rgba(51, 255, 255, 0.267);
+}

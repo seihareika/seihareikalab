@@ -1,15 +1,351 @@
 html {
     font-size: 62.5%;
+    color: #141414;
+    scroll-padding-top: 7rem;
+    background-color: #f4e7bf;
+    width: 100%;
+    border:20px solid #ccb162;/* 枠線 */
+    box-sizing:border-box;
+    vertical-align: text-bottom;
+    text-align: left;
+}
+
+html {
+    font-size: 62.5%;
     scroll-padding-top: 7rem;
 }
 
-main{
-    font-size: 2.5rem;
+@media screen and (max-width: 767px){}
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.h4 {
+footer {
+    background-color: #ccb162;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+
+.jump-btn {
+    height: 20rem !important;
+    width: 20rem !important;
+    border: 0.1rem;
+    background-color: #eeeeee;
+}
+
+p1 {
+    font-size: 6.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+p2 {
+    font-size: 5.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+p3 {
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+p4 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+p5 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+p6 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+h4 {
     font-size: 3rem;
     font-weight: bold;
     color: #141414;
 }
 
+h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z4 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z5 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z6 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z7 {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z8 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z9 {
+    font-size: 9rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+z10 {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main a {
+    color: #141414;
+}
+
+main a:hover {
+    color: #141414;
+}
+
+main z1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z4 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z5 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z6 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z7 {
+    font-size: 7rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z8 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z9 {
+    font-size: 9rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main z10 {
+    font-size: 10rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p1 {
+    font-size: 6.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p2 {
+    font-size: 5.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p3 {
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p4 {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p5 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p6 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p1 :hover {
+    font-size: 6.0rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+main p2 :hover {
+    font-size: 5.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p3 :hover {
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p4 :hover {
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p5 :hover {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #141414;
+}
+
+main p6 :hover {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #141414;
+}

@@ -1,0 +1,9 @@
+header {
+    height: 12.7rem;
+}
+
+.top-banner {
+    z-index: -1;
+    width: 100%;
+    opacity: 25%;
+}

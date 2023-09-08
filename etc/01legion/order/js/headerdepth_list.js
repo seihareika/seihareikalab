@@ -9,6 +9,7 @@ document.write(`
             <br><hr><br>
             <li><a href="../index.html"><p4>order top page</p4></a></li>
             <li><a href="./2023_07_order.html"><p4>2023/07-order</p4></a></li>
+            <li><a href="./2023_09_order.html"><p4>2023/09-order</p4></a></li>
         </ul>
     </div>
 </nav>
